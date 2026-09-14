@@ -1,0 +1,59 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/versions
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds
+/*/ios/
+/*/android/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# logs & debug
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.pnpm-debug.log*
+
+# testing & coverage
+coverage/
+
+# caches
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# local env files
+.env
+.env.local
+.env*.local
+
+# editors & tools
+.vscode/.react/
+.idea/
+*.swp
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+*.pem
